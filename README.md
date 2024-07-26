@@ -1,5 +1,7 @@
 # Trade Enrichment Service
-
+## NOTE:
+Probably i did not understand something, I pass trades as http request, i dont sure
+its correct, probably you wanted to read them from .csv file as well.
 ## How to Run the Service
 
 To run the service, you have two options:
