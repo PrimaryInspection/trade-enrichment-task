@@ -77,5 +77,6 @@ To maintain high performance in a high-load environment, this service provides t
    - **Unit Tests:** Use JUnit to test file reading, date validation, and handle null scenarios.
 
 5. **Controller Improvement:** Update the controller to handle `Flux<Trades>` instead of `List<Trades>`. This change is pending due to deserialization challenges; consider configuring a custom deserializer.
+And add HTTP validation.
 
 6. **Exception Handling:** Implement comprehensive exception handling with appropriate translation to HTTP responses.
